@@ -1,13 +1,57 @@
-body {
+@import url('https://fonts.googleapis.com/css2?family=Teko:wght@600&family=Righteous&family=Kanit:wght@200;300;400&display=swap');
+
+*{
   margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+  padding: 0;
+  box-sizing: border-box;
+  text-decoration: none;
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+body, html {
+  margin: 0;
+  font-family:'Kanit', sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  color: #574789
+}
+html{
+  scroll-behavior: smooth;
+}
+
+body{
+  height: 100vh;
+  display: flex;
+}
+
+#root{
+  flex-grow: 1;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.shadow{
+  box-shadow: rgb(118 118 118 / 11%) 2px 4px 6px 3px;
+}
+
+.normal-font{
+  font-weight: normal;
+}
+
+.text-center{
+  text-align: center;
+}
+.text-underline{
+  text-decoration: underline;
+}
+
+.border-bottom1{
+  border-bottom: 1px solid;
+}
+
+.mt-1{
+  margin-top: .5rem;
+}
+.mt-2{
+  margin-top: 1rem !important;
 }
