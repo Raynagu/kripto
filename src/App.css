@@ -111,11 +111,11 @@ header ul > li:hover{
 }
 
 /* Large devices (laptops/desktops, 992px and up) */
-@media only screen and (min-width: 992px) {
+/* @media only screen and (min-width: 992px) {
   .Coins{
-    /* justify-content: center; */
+    justify-content: center;
   }
-}
+} */
 
 .coin-card{
   color: #574789;
